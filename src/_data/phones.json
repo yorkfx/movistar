@@ -1,0 +1,38 @@
+"phones": [
+	{
+	  "src": "../assets/phones/phone1.png",
+	  "description": "Motorola Moto X4 LTE color Azul",
+	  "precio": "$7,999",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	},
+	{
+	  "src": "../assets/phones/phone2.png",
+	  "description": "Motorola Moto C LTE color Negrol",
+	  "precio": "$1,999",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	},
+	{
+	  "src": "../assets/phones/phone3.png",
+	  "description": "LG Q6 PRIME LTE color Titanio",
+	  "precio": "$5,999",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	},
+	{
+	  "src": "../assets/phones/phone4.png",
+	  "description": "Apple iPhone 6s Plus 128 GB color Oro Rosa",
+	  "precio": "$12,499",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	},
+	{
+	  "src": "../assets/phones/phone5.png",
+	  "description": "Samsung Galaxy S8 color Negro Media Noche",
+	  "precio": "$17,299",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	},
+	{
+	  "src": "../assets/phones/phone6.png",
+	  "description": "Bmobile AX821 Dorado",
+	  "precio": "$1,499",
+	  "link": "http://www.movistar.com.mx/tienda/Open-Catalog/Productos/Celulares/Smartphone/Samsung-Galaxy-S8-color-Negro-Media-Noche/p/20176"
+	}
+]

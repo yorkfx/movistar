@@ -1,0 +1,19 @@
+footer{
+	margin-top: 20px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	ul{
+		align-self: flex-end;
+		margin: 0;
+		list-style: none;
+		list-style-position: inside;
+		padding: 0;
+		li{
+			display: inline-block;
+			text-align: center;
+			font-size: .75em;
+			padding: 0 6px;
+		}
+	}
+}

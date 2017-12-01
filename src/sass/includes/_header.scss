@@ -1,0 +1,162 @@
+header{
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0; 
+	width: 100%;
+	background-color: #FFF;
+	z-index: 1000;
+	.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		h1{
+			background-image: url("../assets/logo-movistar-verde.svg");
+			background-repeat: no-repeat;
+			background-position: center left;
+			width: 190px;
+			font-size: 0;
+			letter-spacing: -999em;
+			a{
+				height: 90px;
+				display: block;
+			}
+		}
+		ul#menu-principal{
+			margin: 0;
+			list-style: none;
+			list-style-position: inside;
+			padding: 0;
+			z-index: 10000;
+			li{
+				display: inline-block;
+				line-height: 92px;
+				margin: 0 5px;
+				font-size: 1.1em;
+				position: relative;
+				padding: 0 10px;
+				a{
+					color: #000
+				}
+				ul{
+					margin: 0;
+					list-style: none;
+					list-style-position: inside;
+					padding: 0;
+					transition: all .4s ease-in-out;
+					display: block;
+					visibility: hidden;
+					position: absolute;
+					width: 220px;
+					top: 40px;
+					left: -10px;
+					opacity: 0;
+					background-color: rgba(255,255,255,1);
+					box-shadow: 0 6px 6px rgba(0,0,0,.1);
+					padding-bottom: 5px;
+					li{
+						font-size: .86em;
+						display: block !important;
+						width: 90%;
+						line-height: 28px;
+						margin: 0 0 0 12px;
+						padding: 4px 0;					
+						transition: all .4s ease-in-out;
+						color: #444;
+						&:hover{
+							a{
+								color: #00a9e0;
+							}
+						}
+					}
+				}
+				&:hover{
+					ul{
+						opacity: 1;
+						visibility: visible;
+						top: 70px;
+						display: block;
+						height: auto;
+					}
+				}
+			}
+		}
+		input{
+			font-size: .9em;
+			border: 1px solid #ddd;
+			height: 40px;
+			width: 170px;
+			margin: 28px 0 0 0;
+			text-indent: 10px;
+			transition: all .4s ease-in-out;
+			border-radius: 4px;
+			&::placeholder{
+				color: #888;
+			}
+			&:focus{
+				color: #444;
+				width: 250px;
+				outline: 0 none;
+				background-color: #f4f4f4;
+			}
+		}
+	}
+	#menu-header{
+		background-color: #00a9e0;
+		.container{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			ul{
+				margin: 0;
+				list-style: none;
+				list-style-position: inside;
+				padding: 0;
+				&:first-child{
+					margin: 0 0 0 0px;
+				}
+				&:last-child{
+					li{
+						&:first-child{
+							background-color: #FFF;
+							margin: 0 1px 0 0;
+							a{
+								color: #00a9e0;
+								&:hover{
+									color: #fff;
+									background-color: darken(#00a9e0, 3);
+								}
+							}
+						}
+						&:last-child{
+							background-color: #5bc500;
+							a{
+								color: #FFF;
+								&:hover{
+									background-color: darken(#5bc500, 3);
+								}
+							}
+						}
+					}
+				}
+				li{
+					font-size: .9em;
+					display: inline-block;
+					color: #fff;
+					margin: 0;
+
+					a{
+						transition: all .2s ease-in-out;
+						line-height: 40px;
+						display: block;
+						color: #fff;
+						padding: 0 15px;
+						&:hover{
+							color: #00a9e0;
+							background-color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
